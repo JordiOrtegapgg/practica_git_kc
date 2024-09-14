@@ -1,0 +1,124 @@
+   54  git clone https://github.com/JordiOrtegapgg/practica_git_kc.git
+   55  nano git-nuestro.md
+   56  ls
+   57  cat git-nuestro.md
+   58  git add git-nuestro.md
+   59  git status
+   60  ls -a
+   61  git clone https://github.com/JordiOrtegapgg/practica_git_kc.git
+   62  git status
+   63  git add git-nuestro.md
+   64  git commit -m "primer commit git-nuestro.md"
+   65  git commit user.name "JordiOrtegapgg"
+   66  git config user.name "JordiOrtegapgg"
+   67  git config user.email "jordi.ortega.455@gmail.com"
+   68  git commit --ammend --reset-author
+   69  git commit --amend --reset-author
+   70  clear
+   71  git satus
+   72  git status
+   73  git log
+   74  git branch styled
+   75  git branch
+   76  git checkout styled
+   77  git branch
+   78  nano git-nuestro.md
+   79  git add git-nuestro.md
+   80  git commit -m "git-nuestro.md modificado en rama styled 9"
+   81  git reset --hard HEAD~1
+   82  git log
+   83  git status
+   84  git reflog
+   85  cat git-nuestro.md
+   86  git reset --hard 37b2aaf
+   87  git log --oneline --graph --decorate --all
+   88  gitk --all
+   89  git merge main
+   90  git branch
+   91  gitk --all
+   92  gitk --all
+   93  git log styled..main
+   94  git checkout main
+   95  git branch htmlify
+   96  git checkout htmlify
+   97  nano git-nuestro.md
+   98  git commit -m "modificamos git-nuestro.md a formato html 17"
+   99  git add git-nuestro.md
+  100  git commit -m "modificamos git-nuestro.md a formato html 17"
+  101  git checkout styled
+  102  git merge htmlify
+  103  cat git-nuestro.md
+  104  nano git-nuestro.md
+  105  git merge htmlify
+  106  git status
+  107  git add git-nuestro.md
+  108  git status
+  109  git commit -m "Resolvemos el conflicto git-nuestro.md quedándonos con el contenido de STYLED"
+  110  git checkout main
+  111  git merge styled
+  112  git branch title
+  113  git checkout title
+  114  ls
+  115  nano git-nuestro.md
+  116  git add git-nuestro.md
+  117  git commit -m "Añadimos título a git-nuestro.md 23"
+  118  git status
+  119  git checkout main
+  120  gitk --all
+  121  git log --graph
+  122  gitk --all
+  123  git merge --no-ff title
+  124  gitk -all
+  125  gitk --all
+  126  git status
+  127  git graph
+  128  git log graph
+  129  git log --graph
+  130  git reset HEAD~1
+  131  git restore git-nuestro.md
+  132  git branch -d title
+  133  git branch -D title
+  134  gitk --all
+  135  git reflog
+  136  gitk --all
+  137  git log --graph
+  138  git merge b25167b
+  139  gitk --all
+  140  git branch
+  141  git branch -d htmlify
+  142  git branch -d styled
+  143  git log
+  144  git checkout 70688c1743d77ef1f8d0ae9f84f5816e39a0aa3c
+  145  git checkout 1ccf2cfa5ce7542b468f736a778f2008ff7edabd
+  146  git log
+  147  git tag -a inicial 08104aa1ed01b273750c948422bda978fbeebe0e -m "añadimos tag inicial al primer commit"
+  148  git log
+  149  git reflog
+  150  git tag -a styled 37b2aaf -m "Modificación del paso 10"
+  151  git log
+  152  git tag -a htmlify 271cc18957cbfc71d1d6ea8cc0b3fe9452eb07fb -m "Modificación del paso 17-18"
+  153  git log
+  154  git reflog
+  155  git tag -a title b25167b -m "Modificación del paso 30"
+  156  git tag
+  157  git checkout htmlify
+  158  git checkout main
+  159  git push
+  160  git config user.name
+  161  git config user.email
+  162  git remote -v
+  163  git credential-cache exit
+  164  git push
+  165  ssh -T git@github.com
+  166  git push
+  167  ls -l ~/.ssh/
+  168  ssh-keygen -t ed25519 -C "jordi.ortega.455@gmail.com"
+  169  cat /c/Users/JordiOrtega/.ssh/id_ed25519.pub
+  170  git push
+  171  git clone git@github.com:JordiOrtegapgg/practica_git_kc.git
+  172  git push
+  173  git config user.name
+  174  git push
+  175  git tag
+  176  git push --tags
+  177  history > /c/Users/JordiOrtega/023.keepcoding/Git/bash_practica.txt 
