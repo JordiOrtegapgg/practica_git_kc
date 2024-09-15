@@ -11,7 +11,7 @@
    64  git commit -m "primer commit git-nuestro.md"
    65  git commit user.name "JordiOrtegapgg"
    66  git config user.name "JordiOrtegapgg"
-   67  git config user.email "jordi.ortega.455@gmail.com"
+   67  git config user.email "jordi.xxxxxx@gmail.com"
    68  git commit --ammend --reset-author
    69  git commit --amend --reset-author
    70  clear
@@ -112,8 +112,8 @@
   165  ssh -T git@github.com
   166  git push
   167  ls -l ~/.ssh/
-  168  ssh-keygen -t ed25519 -C "jordi.ortega.455@gmail.com"
-  169  cat /c/Users/JordiOrtega/.ssh/id_ed25519.pub
+  168  ssh-keygen -t ed25519 -C "jordi.xxxxxxx@gmail.com"
+  169  cat /c/Users/xxxxx/.ssh/id_ed255xxxx.pub
   170  git push
   171  git clone git@github.com:JordiOrtegapgg/practica_git_kc.git
   172  git push
@@ -121,4 +121,4 @@
   174  git push
   175  git tag
   176  git push --tags
-  177  history > /c/Users/JordiOrtega/023.keepcoding/Git/bash_practica.txt 
+  177  history > /c/Users/xxxxx/023.keepcoding/Git/bash_practica.txt 
